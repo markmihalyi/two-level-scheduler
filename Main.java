@@ -12,7 +12,7 @@ public class Main {
 
         while (true) {
             String line = input.nextLine();
-            if (line == "")
+            if (line.equals(""))
                 break;
 
             String[] data = line.split(",");
